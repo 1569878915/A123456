@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>A123456</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>qwertyuiop</display-name>
+    <servlet-name>qwertyuiop</servlet-name>
+    <servlet-class>asdfghjkl.qwertyuiop</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>qwertyuiop</servlet-name>
+    <url-pattern>/qwertyuiop</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>assdf</display-name>
+    <servlet-name>assdf</servlet-name>
+    <servlet-class>assdf.assdf</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>assdf</servlet-name>
+    <url-pattern>/assdf</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>asdfg</display-name>
+    <servlet-name>asdfg</servlet-name>
+    <servlet-class>asd.asdfg</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>asdfg</servlet-name>
+    <url-pattern>/asdfg</url-pattern>
+  </servlet-mapping>
+</web-app>
